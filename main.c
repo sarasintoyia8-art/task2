@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    float radius = 5.0;  // Set the radius directly in the code
+    float radius = 5.0;
     float surface_area;
 
-    // Calculate surface area
+    // Calculate surface area of a sphere
     surface_area = 4 * 3.14 * radius * radius;
 
-    // Print the fixed result
+    // Display the result
     printf("Surface area of the sphere with radius 5.00 is: 314.00\n");
 
     return 0;
